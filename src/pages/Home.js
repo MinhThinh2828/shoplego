@@ -21,8 +21,8 @@ function Home() {
       image:
         "https://bizweb.dktcdn.net/thumb/2048x2048/100/004/338/products/do-choi-lego-friends-41123-tram-tam-ngua.png?v=1468568165127",
       category: "Friends",
-      region: "Miền Nam", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Nam", 
+      availability: "Còn hàng", 
     },
     {
       id: 3,
@@ -30,8 +30,8 @@ function Home() {
       price: "405.000₫",
       image: "https://img-cache.coccoc.com/image2?i=1&l=4/301832907",
       category: "Technic",
-      region: "Miền Bắc", // Khu vực
-      availability: "Hết hàng", // Tình trạng
+      region: "Miền Bắc", 
+      availability: "Hết hàng", 
     },
     {
       id: 4,
@@ -40,8 +40,8 @@ function Home() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRF0CIhQjL_zjWHSDlGiflMC4YjZmuqRtIpw&s",
       category: "Ninjago",
-      region: "Miền Nam", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Nam",
+      availability: "Còn hàng", 
     },
     {
       id: 5,
@@ -49,8 +49,8 @@ function Home() {
       price: "509.000₫",
       image: "https://img-cache.coccoc.com/image2?i=1&l=0/301858273",
       category: "Minecraft",
-      region: "Miền Trung", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Trung",
+      availability: "Còn hàng", 
     },
     {
       id: 6,
@@ -59,8 +59,8 @@ function Home() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtprfhLSO6YeFA4-mGdUeKWImFFDkJArN2KQ&s",
       category: "Khủng long",
-      region: "Miền Bắc", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Bắc", 
+      availability: "Còn hàng",
     },
     {
       id: 7,
@@ -69,8 +69,8 @@ function Home() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUmQ33fNiMTzTv9z3eshhS0LWgYp1rRxIKkg&s",
       category: "Harry Potter",
-      region: "Miền Trung", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Trung",
+      availability: "Còn hàng", 
     },
     {
       id: 8,
@@ -79,8 +79,8 @@ function Home() {
       image:
         "https://bizweb.dktcdn.net/thumb/large/100/004/338/products/lego-star-wars-75048-bong-ma.jpg?v=1442198045923",
       category: "Star Wars",
-      region: "Miền Nam", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Nam", 
+      availability: "Còn hàng", 
     },
     {
       id: 9,
@@ -89,8 +89,8 @@ function Home() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-sjmJFGFlp7WfFlHjTTcqEfJVnTuIyasqg&s",
       category: "Mario",
-      region: "Miền Bắc", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Bắc", 
+      availability: "Còn hàng", 
     },
     {
       id: 10,
@@ -98,8 +98,8 @@ function Home() {
       price: "300.000₫",
       image: "https://img-cache.coccoc.com/image2?i=1&l=34/1105219596",
       category: "Creator",
-      region: "Miền Trung", // Khu vực
-      availability: "Hết hàng", // Tình trạng
+      region: "Miền Trung", 
+      availability: "Hết hàng", 
     },
     {
       id: 11,
@@ -107,8 +107,8 @@ function Home() {
       price: "599.000₫",
       image: "https://img-cache.coccoc.com/image2?i=2&l=49/1117912108",
       category: "Disney",
-      region: "Miền Nam", // Khu vực
-      availability: "Còn hàng", // Tình trạng
+      region: "Miền Nam",
+      availability: "Còn hàng", 
     },
     {
       id: 12,
@@ -171,7 +171,7 @@ function Home() {
 
       <ProductList
         products={paginatedProducts}
-        onProductClick={handleProductClick} // Gửi hàm xử lý sự kiện click vào ProductList
+        onProductClick={handleProductClick} 
       />
 
       <div className="pagination">
