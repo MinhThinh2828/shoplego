@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar({ searchTerm, setSearchTerm }) {
   const handleSearchChange = (e) => {
-    setSearchTerm(e.target.value); 
+    setSearchTerm(e.target.value); // Cập nhật từ khóa tìm kiếm khi người dùng nhập
   };
 
   return (

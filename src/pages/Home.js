@@ -126,20 +126,20 @@ function Home() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const itemsPerPage = 6;
 
-  // Lọc sản phẩm theo tên hoặc thể loại từ khóa tìm kiếm
+  
   const filteredProducts = allProducts.filter(
     (product) =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       product.category.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Phân trang sau khi lọc
+  
   const paginatedProducts = filteredProducts.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
 
-  // Hàm chọn sản phẩm và hiển thị thông tin chi tiết
+  
   const handleProductClick = (product) => {
     setSelectedProduct(product);
   };
